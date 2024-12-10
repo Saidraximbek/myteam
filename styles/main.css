@@ -1,0 +1,124 @@
+.hero {
+  color: var(--white-color-items);
+  background-image: url("../images/bg-pattern-home-1.svg"),
+    url("../images/bg-pattern-home-2.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 10rem, right 16.5rem bottom;
+}
+
+/* hero section style start */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15rem;
+}
+
+.hero-title {
+  font-size: 10rem;
+  font-weight: var(--font-weight-700);
+  width: 63.5rem;
+}
+
+.orange-text {
+  color: var(--orange-color);
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 7.9rem;
+}
+
+.line {
+  width: 5rem;
+  height: 0.4rem;
+}
+
+.btn {
+  border: solid 2px #fff;
+  border-radius: 2.4rem;
+  padding: 9px 33px 11px 32px;
+  color: inherit;
+  font-size: var(--fs-18);
+  font-weight: var(--font-weight-600);
+}
+
+.hero-line {
+  background-color: var(--aqua-color);
+}
+
+.here-prg {
+  font-size: var(--fs-18);
+  line-height: 1.5;
+  font-weight: var(--font-weight-600);
+  width: 44.5rem;
+}
+
+/* Hero section style end */
+.build {
+  background-color: var(--green-black-color);
+  background-image: url(../images/bg-pattern-home-3.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+
+.build-container {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.4rem;
+}
+
+.orange-line {
+  background-color: var(--orange-color);
+}
+
+.build-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.build-title {
+  font-size: 4.8rem;
+  line-height: 1;
+  color: var(--white-color-items);
+  font-weight: var(--font-weight-700);
+  width: 44.5rem;
+}
+
+.build-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.build-item {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.build-item-div {
+  width: 44.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.build-item-div-title {
+  font-size: var(--fs-18);
+  line-height: 1.5;
+  font-weight: var(--font-weight-700);
+  color: var(--orange-color);
+}
+.build-item-div-prg {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-600);
+  line-height: 1.6;
+  color: var(--white-color-items);
+  opacity: 0.8;
+}
+/* build section style start */
