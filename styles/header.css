@@ -1,0 +1,38 @@
+.header {
+  padding-top: 7.7rem;
+  padding-bottom: 12.9rem;
+}
+.sitenav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white-color-items);
+  font-size: var(--fs-18);
+  line-height: 1.5;
+  font-weight: var(--font-weight-600);
+}
+
+.sitenav-first-div {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.sitenav-item:active {
+  color: var(--orange-color);
+}
+
+a:visited {
+  color: var(--white-color-items);
+}
+
+.sitenav-link:active {
+  background-color: #fff;
+  color: var(--black-color);
+}

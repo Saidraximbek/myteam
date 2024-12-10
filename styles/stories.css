@@ -1,0 +1,93 @@
+.stories {
+  background-color: var(--green-black-green-color);
+
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-image: url("../images/reviews-bg-left.png"),
+    url("../images/reviews-bg-right.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+.stories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+
+.stories-title {
+  font-weight: 700;
+
+  font-size: 4.8rem;
+  line-height: 1;
+  text-align: center;
+  color: var(--white-color-items);
+  width: 93.2rem;
+}
+
+.aqua-text {
+  color: var(--aqua-color);
+}
+
+.stories-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.6rem;
+}
+.stoies-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+
+  background-image: url("../images/qosh.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 3.6rem;
+}
+
+.stories-prg {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 600;
+  text-align: center;
+  color: var(--white-color-items);
+}
+
+.stories-list-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.stories-item-div-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stories-item-title {
+  color: var(--stories-subtitle-color);
+  font-weight: var(--font-weight-700);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.stories-item-subtitle {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: var(--font-weight-500);
+  font-style: italic;
+  color: var(--white-color-items);
+}
+
+.stories-avatar-img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+  border: 2px solid rgba(196, 255, 254, 1);
+}
